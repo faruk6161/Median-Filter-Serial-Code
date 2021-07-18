@@ -87,7 +87,7 @@ int main(int argc, char* argv[])//komut satırında alınacak eleman sayısı ve
     gettimeofday(&currentTime,NULL); //o an ki zamanı alan bitiş fonksiyonu. currentTime aracalığıyla <-
 	bitis=currentTime.tv_sec+(currentTime.tv_usec/1000000.0);  //gecen süre saniye cinsinden
 	gecenzaman=bitis-baslangic; //geçen zaman hesabi saniye cinsinden .
-    cout<<"Filtreleme islemi icin gecen zaman :"<<gecenzaman;
+    cout<<"Filtreleme islemi icin gecen zaman :"<<gecenzaman <<endl;
 
 
     ofstream DosyaYaz;
